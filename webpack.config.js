@@ -6,6 +6,9 @@ module.exports = {
   mode: 'development',
   devServer: {
     port: 8082,
+    headers: {
+      'Access-Control-Allow-Origin': '*',
+    },
   },
   module: {
     rules: [
