@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="app">
       <React.Suspense fallback='Loading Button'>
-        <MFE1_Button />
+        <MFE1_Button/>
       </React.Suspense>
       <div className="middle-container">
         <h1>Micro-Frontend Host</h1>
