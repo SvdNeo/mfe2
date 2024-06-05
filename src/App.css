@@ -12,6 +12,45 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.middle-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  margin: 10px;
+  padding: 10px;
+  width: 60%;
+  border: 4px solid black;
+  text-align: center;
+}
+
+.nav-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-item {
+  margin: 0;
+}
+
+.link {
+  text-decoration: none;
+  color: #000;
+  font-size: 18px;
+}
 
 .App-header {
   background-color: #282c34;
@@ -26,6 +65,19 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.footer {
+  background-color: lightskyblue; /* Light-colored background */
+  height: 8%; /* Height of 8% */
+  display: flex;
+  align-items: center;
+  justify-content: flex-end; /* Align text at the right */
+  padding-right: 20px; /* Add some padding to the right for better spacing */
+}
+
+.company-name {
+  margin-right: 10px; /* Add some margin between company name and copyright */
 }
 
 @keyframes App-logo-spin {
